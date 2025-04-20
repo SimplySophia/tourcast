@@ -17,7 +17,7 @@ const Hotel = () => {
             data-aos-anchor-placement="top-center"
             data-aos-delay={`${i * 100}`}
             >
-              <HotelCard hotel={data} />
+              <HotelCard hotel={{ ...data, price: data.price.toString() }} />
             </div>
           )
         })}
