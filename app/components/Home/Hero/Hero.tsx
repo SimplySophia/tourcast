@@ -18,7 +18,7 @@ const Hero = () => {
       
       <div className='absolute z-[100] flex items-center justify-center w-full h-full'>
         <div className='flex items-center justify-center flex-col w-full h-full'>
-          <div>
+          <div data-aos="fade-up">
             <h1 className='text-[20px] mb-0 md:mb-8 text-center md:text-[30px] lg:text-[40px] tracking-[0.7rem] text-white font-bold uppercase'>
               Discover Your Next Adventure
             </h1>
